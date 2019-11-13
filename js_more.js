@@ -5,7 +5,7 @@ function c(msg)
 {
    console.log(msg)
 }
-/*
+
 function Garage(address) {
   // this = {} -- because new was used
   
@@ -33,7 +33,7 @@ samiGarage.fixCar.call(toy2)
 // toy2.fixCar = samiGarage.fixCar // copying functions in js is common
 // toy2.fixCar(toy2)
 c(toy2)
-*/
+
 z1 = 1
 c(z1)
 
@@ -62,6 +62,7 @@ if (true){
 
 var z1 = 2
 
+// Hoisting
 function f2() {
   f1()
 }
